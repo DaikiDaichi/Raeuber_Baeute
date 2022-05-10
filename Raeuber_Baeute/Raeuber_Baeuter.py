@@ -24,7 +24,7 @@ neueAnzahlKaninchen = anzahlKaninchen + (zuwachsrateKaninchen * anzahlKaninchen)
 neueAnzahlFuechse = anzahlFuechse - (abnahmerateFuechse * anzahlFuechse) + (zunahmerateFuchsKaninchen * anzahlFuechse *
                                                                             anzahlKaninchen)
 
-print(NeueAnzahlKaninchen, "\n", NeueAnzahlFuechse, "\n")
+print(neueAnzahlKaninchen, "\n", neueAnzahlFuechse, "\n")
 
 
 # ======================================================================================================================

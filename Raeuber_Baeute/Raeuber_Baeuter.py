@@ -58,7 +58,7 @@ print(popKa5Schritte2(anzahlKaninchen, zuwachsrateKaninchen), "\n")
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-schritte = int(input("Geben Sie die Anzahl der Wiederholungen an: "))
+schritte = int(round(float(input("Geben Sie die Anzahl der Wiederholungen an: "))))
 
 def popKaSchritte(anzKa, zKa, schritte):
     neueAnzKa = anzKa
@@ -67,5 +67,5 @@ def popKaSchritte(anzKa, zKa, schritte):
     neueAnzKa = round(neueAnzKa)
     return neueAnzKa
 
-print(popKaSchritte(anzahlKaninchen, zuwachsrateKaninchen, schritte))
 
+print(popKaSchritte(anzahlKaninchen, zuwachsrateKaninchen, schritte))
